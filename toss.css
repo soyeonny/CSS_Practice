@@ -1,0 +1,81 @@
+* { 
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+ }
+
+ .contain {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .toss_is {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+ .left_title {
+    height: 50%;
+    margin: 2%;
+    font-family: 'Spoqa Han Sans';
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 0.8;
+    display: flex;
+    align-items: flex-end;
+}
+
+.left_title2 {
+    height: 20%;
+    margin: 2%;
+    font-size: 14px;
+    opacity: 0.8;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bank5 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bank_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+    height: 70px;
+    /* border: 1px solid orange; */
+    border-radius: 10px;
+    box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05),
+                0 4px 24px 0 rgba(0, 0, 33, 0.05),
+                0 0 1px 0 rgba(0, 0, 33, 0.09) ;
+}
+
+.bank_logo {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account {
+    width: 32%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.img {
+    width: 20px;
+    height: 30px;
+}
